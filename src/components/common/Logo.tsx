@@ -22,7 +22,7 @@ export function Logo({ className = "", size = "md" }: LogoProps) {
           const target = e.target as HTMLImageElement;
           target.style.display = 'none';
           target.parentElement!.innerHTML = `
-            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="./Official Brand Logo.jpg" class="w-full h-full">
               <defs>
                 <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" style="stop-color:#8B5CF6" />
