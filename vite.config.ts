@@ -5,6 +5,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/quiz-presenter/', // Set the base path for GitHub Pages
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
